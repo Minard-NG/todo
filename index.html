@@ -4,18 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>To do | Welcome</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>To DO List App</h1>
+    
+    <header>
+        <div class ="container">
+            <h1>ToDooo</h1>
+            <p>List App</p>
+        </div>
+    </header>
+    
+       
     <form id="todoForm">
-        <input id="todoInput" type="text" placeholde="Enter a text"/>
-        <button type="button" onclick=" todoList()">Click Me</button>
+        <div class = "container">
+        <input id="todoInput" type="text" placeholder ="Enter a text"/>
+        <button id="button" type="button" onclick=" todoList()">Click Me</button>
+      </div>
     </form>
 
-    <ol id="todoList">
+        <ol id="todoList">
 
-    </ol>
+        </ol>
+    </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
